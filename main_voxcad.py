@@ -11,7 +11,7 @@ from cppn.softbot import Genotype, Phenotype, Population
 from cppn.tools.algorithms import Optimizer
 from cppn.tools.utilities import make_material_tree, natural_sort, count_neighbors
 from cppn.objectives import ObjectiveDict
-from cppn.tools.evaluation import evaluate_population
+from cppn.tools.evaluation_voxcad import evaluate_population
 from cppn.tools.mutation import create_new_children_through_mutation
 from cppn.tools.selection import pareto_selection
 
